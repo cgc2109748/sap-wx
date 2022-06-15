@@ -1,0 +1,161 @@
+@import "./../../remax-styles.wxss";
+.form {
+    background-color: #F8F8F8;
+    height: 100%;
+    font-size: 16rpx;
+    padding: 10rpx 0;
+}
+
+.formSection {
+    margin-bottom: 16rpx;
+}
+
+.formCellsTitle{
+    margin-top: 0.77em;
+    margin-bottom: 0.3em;
+    padding-left: 24rpx;
+    padding-right: 24rpx;
+    color: #999999;
+    font-size: 32rpx;
+}
+
+.formCells {
+    position: relative;
+    margin-top: 1.17647059em;
+    background-color: #FFFFFF;
+    line-height: 32rpx;
+    font-size: 32rpx;
+    margin-left:  24rpx;
+    margin-right:  24rpx;
+    border: 1rpx solid #D9D9D9;
+    border-radius: 8rpx;
+}
+
+.formCellsAfterTitle {
+    margin-top: 0;
+}
+
+.formCell {
+    padding: 10rpx 15rpx;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.formCellInput {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.formInput {
+    height: 2.58823529em;
+    min-height: 2.58823529em;
+    line-height: 2.58823529em;
+    cursor: auto;
+    display: block;
+    height: 64rpx;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: UICTFontTextStyleBody;
+    min-height: 64rpx;
+    border-radius: 8rpx;
+}
+
+.confirm {
+    margin-top: 24rpx;
+}
+
+.main {
+    width: 7.6rem;
+    height: 7.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(16rpx, 24rpx);
+}
+.form___4YBuz {
+    background-color: #F8F8F8;
+    height: 100%;
+    font-size: 16rpx;
+    padding: 10rpx 0;
+}
+
+.formSection___EDiXy {
+    margin-bottom: 16rpx;
+}
+
+.formCellsTitle___3vXVK{
+    margin-top: 0.77em;
+    margin-bottom: 0.3em;
+    padding-left: 24rpx;
+    padding-right: 24rpx;
+    color: #999999;
+    font-size: 32rpx;
+}
+
+.formCells___3Arxe {
+    position: relative;
+    margin-top: 1.17647059em;
+    background-color: #FFFFFF;
+    line-height: 32rpx;
+    font-size: 32rpx;
+    margin-left:  24rpx;
+    margin-right:  24rpx;
+    border: 1rpx solid #D9D9D9;
+    border-radius: 8rpx;
+}
+
+.formCellsAfterTitle___2hxg9 {
+    margin-top: 0;
+}
+
+.formCell___3tqPO {
+    padding: 10rpx 15rpx;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.formCellInput___2YXQp {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.formInput___47jfY {
+    height: 2.58823529em;
+    min-height: 2.58823529em;
+    line-height: 2.58823529em;
+    cursor: auto;
+    display: block;
+    height: 64rpx;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: UICTFontTextStyleBody;
+    min-height: 64rpx;
+    border-radius: 8rpx;
+}
+
+.confirm___U0-SL {
+    margin-top: 24rpx;
+}
+
+.main___1mh2w {
+    width: 7.6rem;
+    height: 7.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(16rpx, 24rpx);
+}
