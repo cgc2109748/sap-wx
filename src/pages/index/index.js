@@ -7,18 +7,19 @@ import { Block, Frame, Grid, GridItem } from '../../common';
 
 export default () => {
     const scanner = () => {
-        navigateTo({
-            url: `/pages/scan/index?code=${'BG202200010001'}`,
-        })
-        // wx.scanCode({
-        //   onlyFromCamera: true,
-        //   scanType: 'QR_CODE',
-        //   success: ({result}) => {
-        //     navigateTo({
-        //         url: `/pages/scan/index?code=${result}`,
-        //     })
-        //   }
+        // navigateTo({
+        //     url: `/pages/scan/index?code=${'BG202200010001'}`,
         // })
+        wx.scanCode({
+          onlyFromCamera: true,
+          scanType: 'QR_CODE',
+          success: ({result}) => {
+              console.log('result:', result)
+            navigateTo({
+                url: `/pages/scan/index?code=${result}`,
+            })
+          }
+        })
     }
 
     const routeHandler = (path) => {
