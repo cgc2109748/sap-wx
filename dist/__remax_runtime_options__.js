@@ -950,7 +950,11 @@ module.exports = {
   "pages/success/index": [],
   "pages/error/index": [],
   "pages/history/index": [],
-  "pages/detail/index": []
+  "pages/detail/index": [],
+  "pages/productList/index": [],
+  "pages/productDetail/index": [],
+  "pages/qrCode/index": [],
+  "pages/add/index": []
 },
       appEvents: []
     }

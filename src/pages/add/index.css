@@ -1,0 +1,80 @@
+.form {
+    background-color: #F8F8F8;
+    height: 100%;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.formSection {
+    margin-bottom: 16px;
+}
+
+.formCellsTitle{
+    margin-top: 0.77em;
+    margin-bottom: 0.3em;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #999999;
+    font-size: 32px;
+}
+
+.formCells {
+    position: relative;
+    margin-top: 1.17647059em;
+    background-color: #FFFFFF;
+    line-height: 32px;
+    font-size: 32px;
+    margin-left:  24px ;
+    margin-right:  24px ;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+}
+
+.formCellsAfterTitle {
+    margin-top: 0;
+}
+
+.formCell {
+    padding: 10px 15px;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.formCellInput {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.formInput {
+    height: 2.58823529em;
+    min-height: 2.58823529em;
+    line-height: 2.58823529em;
+    cursor: auto;
+    display: block;
+    height: 64px;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: UICTFontTextStyleBody;
+    min-height: 64px;
+    border-radius: 8px;
+}
+
+.confirm {
+    margin-top: 24px;
+}
+
+.main {
+    width: 7.6rem;
+    height: 7.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(16px, 24px);
+}

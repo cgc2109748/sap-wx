@@ -25,6 +25,13 @@
   .padding___364BU{
     padding: 28rpx;
   }
+/* 
+  .content {
+      height: 98vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  } */
 .block___10PzO{
     margin-bottom: 30rpx;
   }

@@ -1,0 +1,11 @@
+@import "./../../remax-styles.wxss";
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 22rpx;
+}
+.wrapper___3Nrru {
+    display: flex;
+    justify-content: center;
+    padding: 22rpx;
+}

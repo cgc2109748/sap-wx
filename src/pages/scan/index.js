@@ -144,6 +144,10 @@ export default (props) => {
             switch (type) {
                 case "0"://领取
                     productData['used'] = Number(data.used) + Number(submitData.num)
+                    if (Number(data.left) - Number(submitData.num) < 0) {
+                        setErrorText('领取数量超过剩余数量，请重新填写！')
+                        setShow(true)
+                    }
                     productData['left'] = Number(data.left) - Number(submitData.num)
                     if (parseInt(data.amountOfBrrow) !== null) {
                         productData['amountOfBrrow'] = data.amountOfBrrow;
